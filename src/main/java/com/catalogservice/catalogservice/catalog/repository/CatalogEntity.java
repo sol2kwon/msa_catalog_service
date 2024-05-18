@@ -21,7 +21,7 @@ public class CatalogEntity implements Serializable {
     @Column(nullable = false)
     private String productName;
     @Column(nullable = false)
-    private String stock;
+    private Integer stock;
     @Column(nullable = false)
     private String unitPrice;
 
